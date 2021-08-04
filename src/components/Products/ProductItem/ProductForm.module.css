@@ -1,0 +1,14 @@
+.form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.submit-btn span {
+    font-family: Staatliches, Roboto, sans-serif;
+    font-size: 1.2rem;
+    color: dimgray;
+}
+
+.submit-btn svg {
+    margin-right: 0.5rem;
+}

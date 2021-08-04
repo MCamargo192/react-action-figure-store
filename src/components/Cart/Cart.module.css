@@ -1,0 +1,49 @@
+ul::-webkit-scrollbar {
+  display: none;
+}
+
+ul {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.cart {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 20rem;
+  overflow: auto;
+}
+
+.close-btn span {
+  font-family: Staatliches, Roboto, sans-serif;
+  font-size: 1.4rem;
+  color: dimgray;
+}
+
+.empty {
+  color: #d50a0a;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.title {
+  font-family: Staatliches, Roboto, sans-serif;
+  font-size: 1.8rem;
+  color: #d50a0a;
+}
+
+.total {
+  font-family: Staatliches, Roboto, sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.9rem;
+  margin: 1rem 0;
+}
+
+.actions {
+  text-align: right;
+  margin-right: 3rem;
+}

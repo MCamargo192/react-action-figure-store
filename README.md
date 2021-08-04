@@ -10,7 +10,7 @@ This project can be accessed using the domain https://react-we-are-otakus.vercel
 
 ### Project Features
 
-To develep this project I used some React feactures, like Hooks (useState, useReducer, useEffect), React Context.
+To develep this project I used some React features, like Hooks (useState, useReducer, useEffect), React Context.
 
 ### Project Development
 

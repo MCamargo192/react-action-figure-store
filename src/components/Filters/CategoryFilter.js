@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import classes from './CategoryFilter.module.css';
 
 const CategoryFilter = (props) => {
+    const { onSelect } = props;
     const initialState = {
         all: true,
         animes: false,
@@ -35,8 +36,8 @@ const CategoryFilter = (props) => {
             if (categories[key])
                 selectedCategories.push(key);
         }
-        props.onSelect(selectedCategories);
-    }, [categories, props]);
+        onSelect(selectedCategories);
+    }, [categories, onSelect]);
 
     return (
         <div className={classes.categories}>

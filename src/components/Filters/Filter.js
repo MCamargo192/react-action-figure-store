@@ -4,6 +4,7 @@ import CategoryFilter from './CategoryFilter';
 import classes from './Filter.module.css';
 
 const FilterForm = (props) => {
+    const { setFilters } = props
     const [categories, setCategories] = useState([]);
     const [sortBy, setSortBy] = useState('');
     const [priceRange, setPriceRange] = useState({
@@ -20,13 +21,13 @@ const FilterForm = (props) => {
     }
 
     useEffect(() => {
-        props.setFilters({
+        setFilters({
             min: priceRange.min,
             max: priceRange.max,
             categories,
             sortBy
         });
-    }, [categories, sortBy, priceRange, props])
+    }, [categories, sortBy, priceRange, setFilters])
 
     return (
         <div className={classes.filters}>
@@ -74,8 +75,8 @@ const FilterForm = (props) => {
                             <option value='Z-A'>Z-A</option>
                         </optgroup>
                         <optgroup label='Price'>
-                        <option value='Low'>Low</option>
-                        <option value='High'>High</option>
+                            <option value='Low'>Low</option>
+                            <option value='High'>High</option>
                         </optgroup>
                     </select>
                 </div>

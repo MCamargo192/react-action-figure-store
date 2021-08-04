@@ -18,5 +18,7 @@ The original project repo is: https://github.com/MCamargo192/we_are_otakus
 Original project domain: https://wereotakus.netlify.app/
 
 
+As a side project, I decided to rebuild this school project using React. So, I used the same original structure, but using some React features.
+
 
 

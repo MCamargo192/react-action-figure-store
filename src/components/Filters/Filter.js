@@ -26,7 +26,7 @@ const FilterForm = (props) => {
             categories,
             sortBy
         });
-    }, [categories, sortBy, priceRange])
+    }, [categories, sortBy, priceRange, props])
 
     return (
         <div className={classes.filters}>

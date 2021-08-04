@@ -36,7 +36,7 @@ const CategoryFilter = (props) => {
                 selectedCategories.push(key);
         }
         props.onSelect(selectedCategories);
-    }, [categories]);
+    }, [categories, props]);
 
     return (
         <div className={classes.categories}>

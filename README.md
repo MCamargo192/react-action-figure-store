@@ -10,11 +10,11 @@ This project can be accessed using the domain https://react-we-are-otakus.vercel
 
 ### Project Features
 
-To develep this project I used some React features, like Hooks (useState, useReducer, useEffect), React Context.
+To develop this project, I used some React features, like Hooks (useState, useReducer, useEffect), React Context.
 
 ### Project Development
 
-This project was initialy develop as a school project, where I have used only JavaScript, HTML and CSS. It was deployed on Netlify (https://www.netlify.com)
+This project was initialy develop as a school project, and I have used only JavaScript, HTML and CSS. It was deployed on Netlify (https://www.netlify.com)
 
 The original project repo is: https://github.com/MCamargo192/we_are_otakus 
 

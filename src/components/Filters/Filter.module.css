@@ -94,5 +94,28 @@
 
   .sortForm {
     justify-content: center;
+    margin: 0 16px;
+  }
+
+  .sortForm label {
+    font-size: 1.2rem;
+    padding-top: 0 !important;
+    margin-bottom: 0;
+  }
+
+  .sortForm select {
+    padding-left: 0.5rem;
+    font-size: 1.2rem;
+    margin-bottom: .3rem;
+  }
+
+  .prices {
+    margin-top: 0;
+  }
+
+  .prices p {
+    font-size: 1.2rem;
+    padding-top: 0;
+    margin-bottom: 0px !important;
   }
 }

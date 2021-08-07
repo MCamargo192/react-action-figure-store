@@ -59,3 +59,20 @@
     margin-right: .1rem !important;
   }
 }
+
+@media (max-width: 888px) { 
+  .categories p {
+    font-size: 1.2rem;
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+
+  .chips {
+    padding: 0 8px;
+  }
+  .button {
+    padding: 0 0.5rem;
+    font-size: 1.2rem;
+  }
+}
+
